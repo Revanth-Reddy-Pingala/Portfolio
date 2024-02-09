@@ -1161,7 +1161,7 @@ main {
   outline: none;
 }
 
-.form-input::placeholder { font-weight: var(--fw-500); }
+.form-input::placeholder { color: var(--white-1); font-weight: var(--fw-500); }
 
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
 
@@ -1209,7 +1209,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:hover { background: var(--white-2); }
 
-.form-btn:hover::before { background: var(--white-2); }
+.form-btn:hover::before { background: var(--orange-yellow-crayola); }
 
 .form-btn:disabled {
   opacity: 0.7;
